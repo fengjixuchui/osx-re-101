@@ -5,19 +5,19 @@ Work in progress as I am actively collecting these.
 
 #### Must read
 
-- http://reverse.put.as/
-- http://researchcenter.paloaltonetworks.com/tag/mac-os-x/
-- https://www.synack.com/r-d-projects/os-x-security-research/
-- http://samdmarshall.com/re.html
+- https://reverse.put.as/
+- https://blog.paloaltonetworks.com/tag/mac-os-x/
+- https://www.synack.com/blog/r-d-projects/os-x-security-research/
+- https://pewpewthespells.com/re.html
 - https://github.com/bx/machO-tools
 - https://github.com/kpwn/iOSRE
 
 #### Keep these handy
-- "OSX Mach-O File Format Reference" http://samdmarshall.com/re/Mach-O_File_Format.pdf
-- "OSX ABI" http://samdmarshall.com/re/Mac_OS_X_ABI_Function_Calls.pdf
-- Mach-O structures http://www.opensource.apple.com/source/xnu/xnu-2050.18.24/EXTERNAL_HEADERS/mach-o/loader.h
-- "OSX BSD system calls" http://dyjakan.sigsegv.pl/osx-bsd-syscalls/
-- http://www.opensource.apple.com/source/xnu/xnu-2050.18.24/bsd/kern/syscalls.master
+- "OSX Mach-O File Format Reference" https://pewpewthespells.com/re/Mach-O_File_Format.pdf
+- "OSX ABI" https://pewpewthespells.com/re/Mac_OS_X_ABI_Function_Calls.pdf
+- Mach-O structures https://opensource.apple.com/source/xnu/xnu-2050.18.24/EXTERNAL_HEADERS/mach-o/loader.h
+- "OSX BSD system calls" https://sigsegv.pl/osx-bsd-syscalls/
+- https://opensource.apple.com/source/xnu/xnu-2050.18.24/bsd/kern/syscalls.master
 
 #### Basics
 
@@ -40,6 +40,7 @@ Work in progress as I am actively collecting these.
 - "Abusing the Mach-O format" http://cocoaintheshell.com/2009/10/abusing-mach-o
 - "Multi-Platform Viruses Made Easy - A Case Study" http://vxer.org/lib/vjp00.html
 - "Running executables on macOS from memory" https://blog.cylance.com/running-executables-on-macos-from-memory
+- macos_execute_from_memory https://github.com/prsecurity/macos_execute_from_memory/blob/master/main.c
 - "Understanding Apple's Binary Protection in Mac OS X" http://osxbook.com/book/bonus/chapter7/binaryprotection/
 - "Macs get sick too" http://www.irongeek.com/i.php?page=videos/derbycon6/104-macs-get-sick-too-tyler-halfpop-jacob-soo
 - "A Peek Under the Hood of iOS Malware" http://webdiis.unizar.es/~ricardo/files/papers/GR-WMA-16.pdf
@@ -74,6 +75,7 @@ Work in progress as I am actively collecting these.
 - "Demystifying the Secure Enclave Processor" http://mista.nu/research/sep-paper.pdf
 - "Leveraging Apple's Game Engine to Detect macOS Threats" https://objectivebythesea.com/v1/talks/OBTS_v1_Malm_Stein.pdf
 - "Get Cozy with OpenBSM Auditing" https://objective-see.com/talks/Wardle_ShmooCon2018.pdf
+- "Real-time auditing on macOS with OpenBSM" https://meliot.me/2017/07/02/mac-os-real-time-auditing/
 
 #### Kernel extension (KEXT) development
 
